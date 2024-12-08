@@ -1,0 +1,26 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore virtual environment directories
+.venv/
+venv/
+
+# Ignore Python cache files
+**/__pycache__/*
+**/*.py[cod]
+**/*$py.class
+
+# Ignore Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Ignore JavaScript dependencies
+**/node_modules/
+
+# Ignore environment variables
+.env
